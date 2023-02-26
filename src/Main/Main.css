@@ -1,0 +1,11 @@
+.main {
+  border: 1px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.main {
+  grid-area: m;
+}
