@@ -1,0 +1,12 @@
+.footer-site-footer {
+  border: 1px solid olivedrab;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.footer-site-footer {
+  grid-area: f;
+}

@@ -1,0 +1,9 @@
+.Header-site-header {
+  border: 1px solid orangered;
+  padding: 30px;
+  margin: 5px;
+}
+
+.Header-site-header {
+  grid-area: h;
+}
