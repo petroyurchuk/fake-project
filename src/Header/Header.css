@@ -1,7 +1,11 @@
 .Header-site-header {
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
   padding: 30px;
   margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
 }
 
 .Header-site-header {
