@@ -1,9 +1,9 @@
 import './Logo.css'
-
+import myImage from './images/logo.svg'
 function Logo() {
     return (
         <a href="/" className="logo">
-            Creator
+            <img src={myImage} alt="logo" />
         </a>
     )
 }

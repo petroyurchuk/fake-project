@@ -1,11 +1,15 @@
 import Navigation from '../Navigation/Navigation'
 import Logo from './Logo'
+import Hire from './Hire'
 import './Header.css'
 function Header() {
     return (
-        <header className="Header-site-header">
-            <Logo />
-            <Navigation />
+        <header className="header-site-header">
+            <div className="header__container">
+                <Logo />
+                <Navigation />
+                <Hire />
+            </div>
         </header>
     )
 }

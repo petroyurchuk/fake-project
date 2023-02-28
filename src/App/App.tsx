@@ -5,7 +5,7 @@ import Sidebar from '../Sidebar/sidebar'
 import './App.css'
 function App() {
     return (
-        <div className="container">
+        <div className="wrapper">
             <Header />
             <Main />
             <Sidebar />
