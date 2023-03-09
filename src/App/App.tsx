@@ -2,11 +2,24 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Main from '../Main/Main'
 import Sidebar from '../Sidebar/sidebar'
+import AboutUs from '../AboutUs/AboutUs'
+import ContactUS from '../ContactUs/ContactUs'
+import Services from '../Services/Services'
+import Strategic from '../Strategic/Strategic'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 function App() {
     return (
-        <div className="container">
-            <Header />
+        <div className="wrapper">
+            <Router>
+                <Header />
+                <Routes>
+                    <Route path="/about" element={<AboutUs />}></Route>
+                    <Route path="/services" element={<Services />}></Route>
+                    <Route path="/contactus" element={<ContactUS />}></Route>
+                </Routes>
+            </Router>
+            <Strategic />
             <Main />
             <Sidebar />
             <Footer />

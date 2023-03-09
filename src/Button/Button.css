@@ -1,0 +1,25 @@
+.main-button {
+  background-color: #2060F6;
+  border-radius: 8px;
+  height: 50px;
+  width: 264px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  box-shadow: 0 4px 0 0 #203f87;
+  transition: all .5s;
+}
+
+.main-button:hover {
+  background-color: #4376ec;
+  box-shadow: 0 4px 0 0 #29344d;
+  letter-spacing: 2px;
+}
+
+.main-button:active {
+  transform: translateY(-4px);
+}

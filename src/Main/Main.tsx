@@ -4,9 +4,9 @@ function Main() {
     return (
         <div className="main">
             {articles.map((item) => (
-                <section>
-                    <h2>{item.title}</h2>
-                    <div>{item.body}</div>
+                <section className="main__article">
+                    <h2 className="main__title">{item.title}</h2>
+                    <div className="main__body">{item.body}</div>
                 </section>
             ))}
         </div>
