@@ -5,6 +5,7 @@ import Sidebar from '../Sidebar/sidebar'
 import AboutUs from '../AboutUs/AboutUs'
 import ContactUS from '../ContactUs/ContactUs'
 import Services from '../Services/Services'
+import Strategic from '../Strategic/Strategic'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 function App() {
@@ -13,12 +14,12 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Main />}></Route>
                     <Route path="/about" element={<AboutUs />}></Route>
                     <Route path="/services" element={<Services />}></Route>
                     <Route path="/contactus" element={<ContactUS />}></Route>
                 </Routes>
             </Router>
+            <Strategic />
             <Main />
             <Sidebar />
             <Footer />

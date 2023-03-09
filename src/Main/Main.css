@@ -1,11 +1,11 @@
 .main {
-  border: 1px solid blueviolet;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100px;
   flex-direction: column;
   row-gap: 20px;
+  background: #E5E5E5;
 }
 
 .main {
@@ -24,6 +24,20 @@ section>h2 {
 }
 
 section>div {
-  color: goldenrod;
+  color: rgb(45, 44, 41);
   line-height: 25px;
+}
+
+.main__article {
+  max-width: 1200px;
+}
+
+.main__title {
+  color: #253757;
+}
+
+.main__body {
+  text-align: justify;
+  font-size: 15px;
+  color: #6C788B;
 }
